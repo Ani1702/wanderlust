@@ -1,0 +1,154 @@
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1 ;
+}
+
+
+.navbar{
+    height:5rem;
+    background-color: white;
+}
+
+.nav-link{
+    color:black;
+}
+
+#logo{
+    color: red;
+    font-size: 1.4rem;
+}
+
+.ftr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ebebeb;
+    height: 8rem;
+    flex-wrap: wrap;
+}
+
+.ftr-socials{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.ftr-links{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ftr-socials i{
+    margin-right: 0.5rem;
+    font-size:1.2rem ;
+}
+
+.ftr-links a{
+    margin-right: 0.3rem;
+    text-decoration: none;
+    color: black;
+}
+
+.ftr-links a:hover{
+    text-decoration: underline;
+}
+
+/* Cards */
+.card{
+    border: none !important;
+    margin-bottom:2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width:100% !important;
+
+}
+
+.card-body{
+    padding:0 !important;
+}
+
+.card-text a{
+    font-weight: 400 ;
+    text-decoration: none !important;
+    color:black;
+}
+
+.card-text{
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+
+h3{
+    margin: 2rem 0;
+}
+
+.listings-link{
+    text-decoration: none;
+    color: black;
+}
+
+.listings-link:hover{
+    color: black;
+}
+
+.card-img-overlay{
+    opacity: 0;
+    
+}
+
+.card-imgs-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* New Listing */
+#add-btn{
+    border: none;
+    background-color: red;
+}
+
+/* Edit Listing  */
+#edit-btn{
+    border: none;
+    background-color: red;
+}
+
+/* Show Page */
+.show-img{
+    height: 40vh;
+    width: 70% !important;
+}
+
+#show-edit-btn a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+#show-edit-btn,#show-dlt-btn{
+    background-color: red;
+    border: none;
+}
+
+.dlt{
+    background-color: red !important;
+    margin-right: 2 !important;
+}
+
+.dlt-button{
+    margin-right: 10rem !important;
+}
